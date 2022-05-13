@@ -8,3 +8,4 @@ AWS EKS and Spring boot Application
     3.2) when we run above command it will ask access ID and access secret key and default region name and default output format
 4)After running above step we will get .aws/credentials and .aws/config file.
 5)If we wants to use AWS EKS we need to install eksctl and kubectl in local
+6) create cluster --name test-cluster --version 1.22 --region ap-south-1 --nodegroup-name linux-nodes --node-type t2.micro --nodes 2
